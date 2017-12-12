@@ -1,0 +1,19 @@
+spring:
+    datasource:
+        type: org.postgresql.ds.PGSimpleDataSource
+        url: jdbc:postgresql://localhost:5432/bankdb
+        username: postgres
+        password: 123456
+
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+        database: POSTGRESQL
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate.id.new_generator_mappings: true
+            hibernate.temp.use_jdbc_metadata_defaults: false
+
+server:
+    port: 8081
