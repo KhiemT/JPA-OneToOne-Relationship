@@ -13,4 +13,4 @@ Spring Boot 2.x<br>
 
 Run: <i>mvn spring-boot:run</i>
 
-Reference to: http://tdkhiem.com/2017/12/12/jpa-onetoone-relationship/
+Reference to: https://tdkhiem.com/jpa-onetoone-relationship/
